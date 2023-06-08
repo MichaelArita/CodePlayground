@@ -8,5 +8,27 @@
   },
   "keywords": [],
   "author": "Michael Arita",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.12.0",
+    "react-router-dom": "^6.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "@babel/preset-react": "^7.22.3",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.42.0",
+    "eslint-plugin-react": "^7.32.2",
+    "html-webpack-plugin": "^5.5.1",
+    "nodemon": "^2.0.22",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.86.0",
+    "webpack-dev-server": "^4.15.0"
+  }
 }
