@@ -13,13 +13,17 @@ module.exports = {
       directory: path.join(__dirname, '/client/dist'),
       publicPath: '/'
     },
-    proxy: {
-      '/**': {
-        target: 'http://localhost:3000/',
-        secure: false,
-      },
-    },
+    // static: {
+    //   directory: path.join(__dirname, 'public'),
+    // },
+    // proxy: {
+    //   '/**': {
+    //     target: 'http://localhost:3000/',
+    //     secure: false,
+    //   },
+    // },
     compress: true,
+    port: 8080,
   },
   plugins: [
     new HTMLWebpackPlugin({
@@ -56,5 +60,8 @@ module.exports = {
     //     ],
     //   }
     ]
+  },
+  resolve: {
+    extensions: ['.jsx', '.js'],
   }
 };
