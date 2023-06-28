@@ -1,3 +1,12 @@
+* {
+  padding: none;
+  margin: none;
+}
+
 ul {
   list-style: none;
+}
+
+li {
+  width: 100px;
 }

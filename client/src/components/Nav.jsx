@@ -7,8 +7,9 @@ function Nav() {
       <nav>
         <ul>
           <li>
-            <Link to='./home'>Home</Link>
+            <Link to='./'>Home</Link>
             <Link to='/test'>Test</Link>
+            <Link to='/blog'>Blog</Link>
             <Link to='/about'>About</Link>
           </li>
         </ul>
