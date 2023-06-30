@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
   // Generate filler blog article links
-  const articles = new Array(100).fill(null).map((_, i) => <a>`Article {i + 1}`</a>);
+  const articles = new Array(100).fill(null).map((_, i) => <div>`Article {i + 1}`</div>);
 
   return (
     <>
